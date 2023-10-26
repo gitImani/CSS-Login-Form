@@ -104,7 +104,41 @@ button:hover{
     text-align: center;
 }
 
-p a{
-    text-decoration:;
+.twitter a,
+.facebook a{
+    display: block;
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 20px;
+    color: #fff;
+    line-height: 45px;
+    border-radius: 5px;
 }
 
+.twitter i,
+.facebook i{
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.twitter a{
+    margin: 20px 0 15px 0;
+    background: linear-gradient(to left, #232323 0%, #14171A 100%);  
+}
+
+.twitter a:hover{
+    background: linear-gradient(to right, #232323 0%, #14171A 100%);
+    letter-spacing: 0.6px;  
+}
+
+.facebook a{
+    margin: 20px 0 50px 0;
+    background: linear-gradient(to left, #3b5998 0%, #476bb8 100%);  
+}
+
+.facebook a:hover{
+    background: linear-gradient(to right, #3b5998 0%, #476bb8 100%);
+    letter-spacing: 0.5px;  
+}
